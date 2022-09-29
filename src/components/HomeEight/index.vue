@@ -64,7 +64,7 @@ export default {
         preLoading(){
             setTimeout(()=>{
                 this.showloading= false    
-            }, 500)
+            }, 600)
         },
         topToBottom(){
         const result = document.querySelector('.back-to-top')
@@ -74,9 +74,9 @@ export default {
                 result.style.display = "none";
             }
         },
-         toggleSidebar(){
-           this.sidebar = !this.sidebar
-        },  
+        //  toggleSidebar(){
+        //    this.sidebar = !this.sidebar
+        // },  
     }
 }
 </script>

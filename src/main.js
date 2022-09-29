@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueI18n from 'vue-i18n'
 import App from './App.vue'
 import router from './router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -12,6 +13,8 @@ import '../src/assets/css/custom-animated.css'
 import '../src/assets/css/default.css'
 import '../src/assets/css/style.css'
 import '../src/assets/css/main.css'
+
+Vue.use(VueI18n)
 
 Vue.use(BootstrapVue)
 

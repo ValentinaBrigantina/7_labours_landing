@@ -7677,9 +7677,9 @@ blockquote cite {
   border-radius: 3px;
 }
 
-.shop-grid-topbar {
+/* .shop-grid-topbar {
   padding-bottom: 10px;
-}
+} */
 @media (max-width: 767px) {
   .shop-grid-topbar {
     display: block !important;
@@ -7701,12 +7701,14 @@ blockquote cite {
 }
 .shop-grid-topbar select {
   height: 30px;
-  width: 170px;
-  background: #eef1f6;
+  width: 84px;
   border: 0;
-  border-radius: 4px;
 }
-
+select {
+  color: #0e1133;
+  font-size: 15px;
+  font-weight: 500;
+}
 .single-shop-box {
   border: 1px solid #e7eaef;
   border-radius: 6px;
