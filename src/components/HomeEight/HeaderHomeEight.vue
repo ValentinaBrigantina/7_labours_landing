@@ -11,12 +11,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="shop-grid-topbar">
-                            <select name="" id="">
-                                <option value="en-US">English</option>
-                                <option value="ru-РУС">Русский</option>
-                            </select>
-                        </div>
+                        <!-- <SelectLang/> -->
+                        <SelectLanguage/>
                     </div>
                 </div>
             </div>
@@ -25,8 +21,12 @@
 </template>
 
 <script>
-export default {
-   
+    // import SelectLang from './SelectLang.vue';
+    import SelectLanguage from './SelectLanguage.vue';
+
+
+    export default {
+    components: { SelectLanguage }
 }
 </script>
 

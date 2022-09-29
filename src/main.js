@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import VueI18n from 'vue-i18n'
 import App from './App.vue'
 import router from './router'
+import i18n from './i18n/i18n'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
@@ -14,8 +14,6 @@ import '../src/assets/css/default.css'
 import '../src/assets/css/style.css'
 import '../src/assets/css/main.css'
 
-Vue.use(VueI18n)
-
 Vue.use(BootstrapVue)
 
 Vue.use(IconsPlugin)
@@ -23,6 +21,7 @@ Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 
 new Vue({
+  i18n,
   router,
   render: h => h(App)
 }).$mount('#app')

@@ -74,9 +74,6 @@ export default {
                 result.style.display = "none";
             }
         },
-        //  toggleSidebar(){
-        //    this.sidebar = !this.sidebar
-        // },  
     }
 }
 </script>

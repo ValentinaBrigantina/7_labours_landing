@@ -7676,10 +7676,6 @@ blockquote cite {
   margin-right: 7px;
   border-radius: 3px;
 }
-
-/* .shop-grid-topbar {
-  padding-bottom: 10px;
-} */
 @media (max-width: 767px) {
   .shop-grid-topbar {
     display: block !important;
