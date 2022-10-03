@@ -47,6 +47,5 @@
   }
   .selectLang:focus {
     box-shadow: none !important;
-    border-bottom: 1px solid #dee2e6;
   }
 </style>

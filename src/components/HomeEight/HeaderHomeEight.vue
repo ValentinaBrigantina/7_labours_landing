@@ -11,7 +11,6 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- <SelectLang/> -->
                         <SelectLanguage/>
                     </div>
                 </div>
@@ -21,9 +20,7 @@
 </template>
 
 <script>
-    // import SelectLang from './SelectLang.vue';
     import SelectLanguage from './SelectLanguage.vue';
-
 
     export default {
     components: { SelectLanguage }

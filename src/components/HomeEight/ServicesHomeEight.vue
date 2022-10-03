@@ -4,8 +4,8 @@
             <div class="row align-items-end">
                 <div class="col-lg-6 col-md-8">
                     <div class="appie-section-title">
-                        <h3 class="appie-title">Solution for every need.</h3>
-                        <p>The app provides design and digital marketing. </p>
+                        <h3 class="appie-title">{{ $t('message.servecesHomeTitle') }}</h3>
+                        <p>{{ $t('message.servecesHomeText') }}</p>
                     </div>
                 </div>
             </div>
@@ -17,8 +17,8 @@
                                 <div class="icon">
                                     <i class="fal fa-tv"></i>
                                 </div>
-                                <h4 class="title">Carefully designed</h4>
-                                <p>He lost his bottle loo don't get shirty with me ruddy.</p>
+                                <h4 class="title">{{ $t('message.servecesHomeItemTitle') }}</h4>
+                                <p>{{ $t('message.servecesHomeItemText') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
@@ -26,8 +26,8 @@
                                 <div class="icon">
                                     <i class="fal fa-code"></i>
                                 </div>
-                                <h4 class="title">Clean Modern Code</h4>
-                                <p>He lost his bottle loo don't get shirty with me ruddy.</p>
+                                <h4 class="title">{{ $t('message.servecesHomeItemTitle2') }}</h4>
+                                <p>{{ $t('message.servecesHomeItemText2') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
@@ -35,8 +35,8 @@
                                 <div class="icon">
                                     <i class="fal fa-user-friends"></i>
                                 </div>
-                                <h4 class="title">User Interactive</h4>
-                                <p>He lost his bottle loo don't get shirty with me ruddy.</p>
+                                <h4 class="title">{{ $t('message.servecesHomeItemTitle3') }}</h4>
+                                <p>{{ $t('message.servecesHomeItemText3') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
@@ -44,8 +44,8 @@
                                 <div class="icon">
                                     <i class="fal fa-mobile"></i>
                                 </div>
-                                <h4 class="title">Choose a App</h4>
-                                <p>He lost his bottle loo don't get shirty with me ruddy.</p>
+                                <h4 class="title">{{ $t('message.servecesHomeItemTitle4') }}</h4>
+                                <p>{{ $t('message.servecesHomeItemText4') }}</p>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,13 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
+import heroHome from './heroHome'
+import aboutHome from './aboutHome'
+import servicesHome from './servicesHome'
+import worksHome from './workHome'
+import getStartedHome from './getStartedHome'
+import testimonialHome from './testimonialHome'
+import sponserHome from './sponserHome'
+import footerHome from './footerHome'
 
 Vue.use(VueI18n)
 
@@ -11,16 +19,26 @@ export default new VueI18n({
   messages: {
     'en-US': {
       message: {
-        language: 'English',
-        heroHomeTitle: 'We’re a design app',
-        heroHomeText: 'Text about our application.'
+        ...heroHome.en,
+        ...aboutHome.en,
+        ...servicesHome.en,
+        ...worksHome.en,
+        ...getStartedHome.en,
+        ...testimonialHome.en,
+        ...sponserHome.en,
+        ...footerHome.en,
       }
     },
     "ru-РУС": {
       message: {
-        language: 'Русский',
-        heroHomeTitle: 'Мы — дизайнерское приложение',
-        heroHomeText: 'Текст о нашем приложении.'
+        ...heroHome.ru,
+        ...aboutHome.ru,
+        ...servicesHome.ru,
+        ...worksHome.ru,
+        ...getStartedHome.ru,
+        ...testimonialHome.ru,
+        ...sponserHome.ru,
+        ...footerHome.ru,
       }
     }
   }

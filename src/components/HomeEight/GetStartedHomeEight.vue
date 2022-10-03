@@ -19,8 +19,8 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="appie-section-title">
-                        <h3 class="appie-title">Get started with Appie Template.</h3>
-                        <p>He nicked it tickety boo harry the cras bargy chap mush spiffing spend a penny the full monty burke butty.</p>
+                        <h3 class="appie-title">{{ $t('message.getStartedHomeTitle') }}</h3>
+                        <p>{{ $t('message.getStartedHomeText') }}</p>
                     </div>
                     <div class="faq-accordion wow fadeInRight mt-30" data-wow-duration="1500ms">
                         <div class="accrodion-grp wow fadeIn faq-accrodion" data-wow-duration="1500ms" data-grp-name="faq-accrodion">
@@ -28,11 +28,11 @@
                             <div class="accrodion" @click.prevent="OpenQuestion(1)" :class="[showQuestion === 1?'active':'']">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>Does Appie have dynamic content?</h4>
+                                        <h4 class="pr-30">{{ $t('message.getStartedHomeItemTitle') }}</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 1?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the cras boot.</p>
+                                            <p>{{ $t('message.getStartedHomeItemText') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -40,11 +40,11 @@
                             <div class="accrodion" @click.prevent="OpenQuestion(2)" :class="[showQuestion === 2?'active':'']">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>Where do I usually find FAQs in a page?</h4>
+                                        <h4 class="pr-30">{{ $t('message.getStartedHomeItemTitle2') }}</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 2?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the cras boot.</p>
+                                            <p>{{ $t('message.getStartedHomeItemText2') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -52,11 +52,11 @@
                             <div class="accrodion" @click.prevent="OpenQuestion(3)" :class="[showQuestion === 3?'active':'']">
                                 <div class="accrodion-inner">
                                     <div class="accrodion-title">
-                                        <h4>Website & Mobile App Design</h4>
+                                        <h4 class="pr-30">{{ $t('message.getStartedHomeItemTitle3') }}</h4>
                                     </div>
                                     <div class="accrodion-content" :style="[showQuestion === 3?{'display':'block'}:{'display':'none'}]">
                                         <div class="inner">
-                                            <p>Naff Oxford vagabond in my flat chinwag blatant grub tomfoolery that I bits and bobs up the cras boot.</p>
+                                            <p>{{ $t('message.getStartedHomeItemText3') }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,12 +73,12 @@
             <div class="faq-play-counter">
                 <div class="box-1">
                     
-                    <h4 class="title"><coun-down-com v-if="showCounters" class="title" :endVal="700"/> <span v-else class="title">0</span> k</h4>
-                    <span>App Downloads</span>
+                    <h4 class="title"><coun-down-com v-if="showCounters" class="title" :endVal="700"/> <span v-else class="title">0</span>{{ $t('message.getStartedsHomeDownloadsUnit') }}</h4>
+                    <span>{{ $t('message.getStartedsHomeDownloads') }}</span>
                 </div>
                 <div class="box-1 box-2">
-                    <h4 class="title"><coun-down-com v-if="showCounters" class="title"  :endVal="865"/><span v-else class="title">0</span> k</h4>
-                    <span>App Downloads</span>
+                    <h4 class="title"><coun-down-com v-if="showCounters" class="title"  :endVal="865"/><span v-else class="title">0</span>{{ $t('message.getStartedsHomeDownloadsUnit') }}</h4>
+                    <span>{{ $t('message.getStartedsHomeDownloads') }}</span>
                 </div>
             </div>
         </div>

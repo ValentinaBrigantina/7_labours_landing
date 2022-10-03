@@ -4,8 +4,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="appie-section-title text-center">
-                        <h3 class="mt-100 appie-title">What clients say about us</h3>
-                        <p>The app provides design and digital marketing.</p>
+                        <h3 class="mt-100 appie-title">{{ $t('message.testimonialHomeTitle') }}</h3>
+                        <p>{{ $t('message.testimonialHomeText') }}</p>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial') }}</p>
                             </div>
                             </div>
                             <div class="testimonial-parent-item">
@@ -45,7 +45,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial2') }}</p>
                             </div>
                             </div>
                             <div class="testimonial-parent-item">
@@ -62,7 +62,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial3') }}</p>
                             </div>
                             </div>
                             <div class="testimonial-parent-item">
@@ -79,7 +79,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial4') }}</p>
                             </div>
                             </div>
                             <div class="testimonial-parent-item">
@@ -96,7 +96,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial5') }}</p>
                             </div>
                             </div>
                             <div class="testimonial-parent-item">
@@ -113,41 +113,7 @@
                                         <li><i class="fas fa-star"></i></li>
                                     </ul>
                                 </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
-                            </div>
-                            </div>
-                            <div class="testimonial-parent-item">
-                                <div class="testimonial-box">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="ratings-icon">
-                                    <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
-                            </div>
-                            </div>
-                            <div class="testimonial-parent-item">
-                                <div class="testimonial-box">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="ratings-icon">
-                                    <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-                                <p>Twit some dodgy chav he legged it crikey blatant starkers pukka show off show off pick your nose and blow off morish bum bag boot quaint, Oxford off his nut I bugger up the kyver brilliant bits and bobs haggle buggered.</p>
+                                <p>{{ $t('message.testimonialHomeTestimonial6') }}</p>
                             </div>
                             </div>
                         </VueSlickCarousel>
@@ -162,8 +128,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition') }}</span>
                                 </div>
                             </div>
                             <div class="item">
@@ -171,8 +137,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName2') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition2') }}</span>
                                 </div>
                             </div>
                             <div class="item">
@@ -180,8 +146,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName3') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition3') }}</span>
                                 </div>
                             </div>
                             <div class="item">
@@ -189,8 +155,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName4') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition4') }}</span>
                                 </div>
                             </div>
                             <div class="item">
@@ -198,8 +164,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName5') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition5') }}</span>
                                 </div>
                             </div>
                             <div class="item">
@@ -207,8 +173,8 @@
                                     <img src="@/assets/images/testimonial-user-1.png" alt="">
                                 </div>
                                 <div class="content text-center">
-                                    <h5 class="title">Bodrum Salvador</h5>
-                                    <span>Product Designer</span>
+                                    <h5 class="title">{{ $t('message.testimonialHomeName6') }}</h5>
+                                    <span>{{ $t('message.testimonialHomePosition6') }}</span>
                                 </div>
                             </div>
                         </VueSlickCarousel>

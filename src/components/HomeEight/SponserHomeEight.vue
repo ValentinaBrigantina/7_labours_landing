@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-signup-box">
-                        <span>No credit card required</span>
-                        <h3 class="title">Get Started.</h3>
-                        <div class="thumb">
+                        <span>{{ $t('message.sponserHomeText') }}</span>
+                        <h3 class="title">{{ $t('message.sponserHomeTitle') }}</h3>
+                        <div class="thumb w110">
                             <img src="@/assets/images/signup-thumb.png" alt="">
                         </div>
                     </div>
@@ -23,5 +23,7 @@ export default {
 </script>
 
 <style>
-
+    .w110 {
+        width: 110px !important;
+    }
 </style>

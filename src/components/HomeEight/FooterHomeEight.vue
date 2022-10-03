@@ -7,8 +7,8 @@
                         <div class="logo">
                             <a href="#"><img src="@/assets/images/logo-9.png" alt=""></a>
                         </div>
-                        <p>Appie WordPress is theme is the last theme you will ever have.</p>
-                        <a href="#">Read More <i class="fal fa-arrow-right"></i></a>
+                        <p>{{ $t('message.footerHomeText') }}</p>
+                        <a href="#">{{ $t('message.footerHomeButton') }} <i class="fal fa-arrow-right"></i></a>
                         <div class="social mt-30">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -21,35 +21,19 @@
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <div class="footer-navigation">
-                        <h4 class="title">Company</h4>
-                      <ul>
-                            <li><router-link to="/about-us">About Us</router-link></li>
-                            <li><router-link to="/service-details">Service</router-link></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><router-link to="/news">Blog</router-link></li>
-                            <li><router-link to="/contact">Contact</router-link></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-navigation">
-                        <h4 class="title">Support</h4>
-                        <ul>
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Faqs</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
                     </div>                    
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget-info">
-                        <h4 class="title">Get In Touch</h4>
+                        <h4 class="title">{{ $t('message.footerHomeTitle') }}</h4>
                         <ul>
                             <li><a href="#"><i class="fal fa-envelope"></i> support@appie.com</a></li>
                             <li><a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a></li>
-                            <li><a href="#"><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St Floor 7, San Francisco, AV 4206</a></li>
+                            <li><a href="#"><i class="fal fa-map-marker-alt"></i> {{ $t('message.footerHomeAddress') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,12 +43,12 @@
                     <div class="footer-copyright d-flex align-items-center justify-content-between pt-35">
                         <div class="apps-download-btn">
                         <ul>
-                            <li><a href="#"><i class="fab fa-apple"></i> Download for iOS</a></li>
-                            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a></li>
+                            <li><a href="#"><i class="fab fa-apple"></i> {{ $t('message.footerHomeDownload') }} iOS</a></li>
+                            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> {{ $t('message.footerHomeDownload') }} Android</a></li>
                         </ul>
                         </div>
                         <div class="copyright-text">
-                            <p>Copyright © 2021 Appie. All rights reserved.</p>
+                            <p>Copyright © 2021 Appie. {{ $t('message.footerHomeCopyright') }}</p>
                         </div>
                     </div>
                 </div>
