@@ -14,5 +14,13 @@ export default {
     aboutHomeItemTitle2: "Дизайн веб-сайтов и мобильных приложений",
     aboutHomeItemText2: "Здесь будет какой-то текст",
     aboutHomeButton: "Узнать больше",
-  }
+  },
+  lv: {
+    aboutHomeTitle: "Mums ir viss nepieciešamais lietojumprogrammu izveidei",
+    aboutHomeItemTitle: "Veidnes optimizēšana mobilajām ierīcēm",
+    aboutHomeItemText: "Šeit būs kāds teksts",
+    aboutHomeItemTitle2: "Vietņu un mobilo lietotņu dizains",
+    aboutHomeItemText2: "Šeit būs kāds teksts",
+    aboutHomeButton: "Lai uzzinātu vairāk",
+  },
 }

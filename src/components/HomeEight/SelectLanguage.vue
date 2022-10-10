@@ -6,6 +6,7 @@
       </template>
       <b-dropdown-item @click="selectEn">English</b-dropdown-item>
       <b-dropdown-item @click="selectRu">Русский</b-dropdown-item>
+      <b-dropdown-item @click="selectLv">Latviski</b-dropdown-item>
     </b-dropdown>
 </div>
 </template>
@@ -13,20 +14,24 @@
 <script>
   export default {
     data () {
-      return { locale: 'en-US' }
+      return { locale: 'en' }
     },
     mounted() {
       this.$i18n.locale = localStorage.getItem('locale')
     },
     methods: {
       selectEn() {
-        this.$i18n.locale = "en-US"
+        this.$i18n.locale = "en"
         localStorage.setItem('locale', this.$i18n.locale)
       },
       selectRu() {
-        this.$i18n.locale = "ru-РУС"
+        this.$i18n.locale = "ru"
         localStorage.setItem('locale', this.$i18n.locale)
-      }
+      },
+      selectLv() {
+        this.$i18n.locale = "lv"
+        localStorage.setItem('locale', this.$i18n.locale)
+      },
     }
   }
 </script>

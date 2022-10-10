@@ -22,5 +22,17 @@ export default {
     servecesHomeItemText3: "Здесь будет какой-то текст, возможно длинный текст",
     servecesHomeItemTitle4: "Выберите приложение",
     servecesHomeItemText4: "Здесь будет какой-то текст, возможно длинный текст",
-  }
+  },
+  lv: {
+    servecesHomeTitle: "Risinājums katrai vajadzībai",
+    servecesHomeText: "Lietojumprogramma nodrošina dizainu un digitālo mārketingu",
+    servecesHomeItemTitle: "Rūpīgi izstrādāts",
+    servecesHomeItemText: "Šeit būs kāds teksts, iespējams, garš teksts",
+    servecesHomeItemTitle2: "Tīrs mūsdienu kods",
+    servecesHomeItemText2: "Šeit būs kāds teksts, iespējams, garš teksts",
+    servecesHomeItemTitle3: "Interaktīvs lietotājam",
+    servecesHomeItemText3: "Šeit būs kāds teksts, iespējams, garš teksts",
+    servecesHomeItemTitle4: "Izvēlieties lietojumprogrammu",
+    servecesHomeItemText4: "Šeit būs kāds teksts, iespējams, garš teksts",
+  },
 }

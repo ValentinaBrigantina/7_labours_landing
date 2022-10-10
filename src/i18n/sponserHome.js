@@ -6,5 +6,9 @@ export default {
   ru: {
     sponserHomeTitle: "Начни пользоваться сейчас",
     sponserHomeText: "Без привязки банковской карты",
-  }
+  },
+  lv: {
+    sponserHomeTitle: "Sāciet lietot tūlīt",
+    sponserHomeText: "Nepievienojot bankas karti",
+  },
 }

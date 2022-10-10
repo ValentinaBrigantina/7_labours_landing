@@ -14,5 +14,13 @@ export default {
     footerHomeAddress: "442987 ул. Лесная, 10, Москва",
     footerHomeDownload: "Скачать для",
     footerHomeCopyright: "Все права защищены",
-  }
+  },
+  lv: {
+    footerHomeText: "Appie WordPress ir pēdējā tēma, kas jums jebkad būs",
+    footerHomeButton: "Lai uzzinātu vairāk ",
+    footerHomeTitle: "Sazinies ar mums",
+    footerHomeAddress: "442987 Rīga, Višķu iela 13 - 56",
+    footerHomeDownload: "Lejupielādēt par",
+    footerHomeCopyright: "Visas tiesības aizsargātas",
+  },
 }

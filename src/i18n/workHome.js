@@ -14,5 +14,13 @@ export default {
     workHomeItemTitle2: "Создай бесплатный аккаунт",
     workHomeItemTitle3: "Синхронизируй на всех устройствах",
     workHomeItemTitle4: "Ежемесячные и еженедельные отчеты",
-  }
+  },
+  lv: {
+    workHomeTitle: "Kā tas strādā",
+    workHomeText: "Ikdienas prakse liecina, ka jauns organizatoriskās darbības modelis prasa amatu definēšanu un precizēšanu",
+    workHomeItemTitle: "Lejupielādējiet lietotni",
+    workHomeItemTitle2: "Izveidojiet bezmaksas kontu",
+    workHomeItemTitle3: "Sinhronizējiet visās ierīcēs",
+    workHomeItemTitle4: "Mēneša un iknedēļas pārskati",
+  },
 }

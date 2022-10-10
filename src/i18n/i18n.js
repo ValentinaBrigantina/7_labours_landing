@@ -11,13 +11,13 @@ import footerHome from './footerHome'
 
 Vue.use(VueI18n)
 
-const locale = 'en-US'
+const locale = 'en'
 
 
 export default new VueI18n({
   locale,
   messages: {
-    'en-US': {
+    'en': {
       message: {
         ...heroHome.en,
         ...aboutHome.en,
@@ -29,7 +29,7 @@ export default new VueI18n({
         ...footerHome.en,
       }
     },
-    "ru-РУС": {
+    "ru": {
       message: {
         ...heroHome.ru,
         ...aboutHome.ru,
@@ -39,6 +39,18 @@ export default new VueI18n({
         ...testimonialHome.ru,
         ...sponserHome.ru,
         ...footerHome.ru,
+      }
+    },
+    "lv": {
+      message: {
+        ...heroHome.lv,
+        ...aboutHome.lv,
+        ...servicesHome.lv,
+        ...worksHome.lv,
+        ...getStartedHome.lv,
+        ...testimonialHome.lv,
+        ...sponserHome.lv,
+        ...footerHome.lv,
       }
     }
   }

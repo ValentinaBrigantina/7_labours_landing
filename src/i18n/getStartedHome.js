@@ -22,5 +22,17 @@ export default {
     getStartedHomeItemText3: "Равным образом новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании модели развития",
     getStartedsHomeDownloads: "Загрузок приложений",
     getStartedsHomeDownloadsUnit: " тыс",
-  }
+  },
+  lv: {
+    getStartedHomeTitle: "Sāciet darbu ar Appie veidni",
+    getStartedHomeText: "Fishtext vietne palīdzēs dizainerim, maketētājam, tīmekļa pārzinim ģenerēt vairākas rindkopas vairāk vai mazāk jēgpilnu zivju tekstu krievu valodā.",
+    getStartedHomeItemTitle: "Vai Appie ir dinamisks saturs?",
+    getStartedHomeItemText: "Tāpat jaunais organizatoriskās darbības modelis paredz plašu (speciālistu) līdzdalību attīstības modeļa veidošanā",
+    getStartedHomeItemTitle2: "Kur lapā parasti var atrast FAQ?",
+    getStartedHomeItemText2: "Tāpat jaunais organizatoriskās darbības modelis paredz plašu (speciālistu) līdzdalību attīstības modeļa veidošanā",
+    getStartedHomeItemTitle3: "Vietņu un mobilo lietotņu dizains",
+    getStartedHomeItemText3: "Tāpat jaunais organizatoriskās darbības modelis paredz plašu (speciālistu) līdzdalību attīstības modeļa veidošanā",
+    getStartedsHomeDownloads: "Lietotņu lejupielādes",
+    getStartedsHomeDownloadsUnit: " tūkst",
+  },
 }
