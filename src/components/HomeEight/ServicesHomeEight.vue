@@ -1,53 +1,11 @@
 <template>
       <section class="appie-services-2-area appie-services-8-area pt-90 pb-55" id="service">
         <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-6 col-md-8">
-                    <div class="appie-section-title">
-                        <h3 class="appie-title">{{ $t('message.servecesHomeTitle') }}</h3>
-                        <p>{{ $t('message.servecesHomeText') }}</p>
-                    </div>
-                </div>
-            </div>
             <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="appie-single-service-2 appie-single-service-about mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                <div class="icon">
-                                    <i class="fal fa-tv"></i>
-                                </div>
-                                <h4 class="title">{{ $t('message.servecesHomeItemTitle') }}</h4>
-                                <p>{{ $t('message.servecesHomeItemText') }}</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="appie-single-service-2 appie-single-service-about item-2 mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="400ms">
-                                <div class="icon">
-                                    <i class="fal fa-code"></i>
-                                </div>
-                                <h4 class="title">{{ $t('message.servecesHomeItemTitle2') }}</h4>
-                                <p>{{ $t('message.servecesHomeItemText2') }}</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="appie-single-service-2 appie-single-service-about item-3 mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="600ms">
-                                <div class="icon">
-                                    <i class="fal fa-user-friends"></i>
-                                </div>
-                                <h4 class="title">{{ $t('message.servecesHomeItemTitle3') }}</h4>
-                                <p>{{ $t('message.servecesHomeItemText3') }}</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="appie-single-service-2 appie-single-service-about item-4 mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
-                                <div class="icon">
-                                    <i class="fal fa-mobile"></i>
-                                </div>
-                                <h4 class="title">{{ $t('message.servecesHomeItemTitle4') }}</h4>
-                                <p>{{ $t('message.servecesHomeItemText4') }}</p>
-                            </div>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="row appie-section-title">
+                        <h3 class="appie-title mb-30">{{ $t('message.servecesHomeTitle') }}</h3>
+                        <p>{{ $t('message.servecesHomeText') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-5">

@@ -7,7 +7,7 @@
                         <div class="col-lg-2 col-md-4 col-sm-5 col-6">
                             <div class="appie-logo-box">
                                 <a href="/">
-                                    <img src="@/assets/images/logo-9.png" alt="">
+                                    <img src="@/assets/images/Screenshot.png" alt="">
                                 </a>
                             </div>
                         </div>

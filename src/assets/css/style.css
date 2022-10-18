@@ -1384,24 +1384,19 @@ p {
     top: 0;
   }
 }
-.appie-header-8-area .header-nav-box .appie-btn-box .main-btn {
-  background: #db0f30;
-  border-color: #db0f30;
-}
+
 .appie-header-8-area .header-nav-box .appie-btn-box .main-btn:hover {
   background: #fff;
   color: #db0f30;
 }
-.appie-header-8-area .header-nav-box .appie-header-main-menu ul > li a:hover {
-  color: #db0f30;
-}
+
 
 /*===========================
     3.APPIE HERO css 
 ===========================*/
 .appie-hero-area {
-  padding-top: 200px;
-  padding-bottom: 110px;
+  padding-top: 170px;
+  padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   z-index: 10;
@@ -1651,8 +1646,8 @@ p {
 }
 .appie-hero-area.appie-hero-8-area .home-8-shape-2 {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -170px;
+  right: -150px;
   z-index: -1;
 }
 .appie-hero-area.appie-hero-8-area .home-8-shape-3 {
@@ -1765,7 +1760,7 @@ p {
   }
 }
 .appie-hero-content ul {
-  margin: 41px 0 0;
+  margin: 41px 0 50px;
   padding: 0;
   list-style-type: none;
 }
@@ -2663,7 +2658,7 @@ p {
 }
 
 .appie-services-8-area .service-thumb {
-  margin-left: -50px;
+  /* margin-left: -50px; */
   margin-right: -100px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -73,11 +73,17 @@
             <div class="faq-play-counter">
                 <div class="box-1">
                     
-                    <h4 class="title"><coun-down-com v-if="showCounters" class="title" :endVal="700"/> <span v-else class="title">0</span>{{ $t('message.getStartedsHomeDownloadsUnit') }}</h4>
+                    <h4 class="title"><coun-down-com v-if="showCounters" class="title" :endVal="700"/>
+                        <span v-else class="title">0</span>
+                        {{ $t('message.getStartedsHomeDownloadsUnit') }}
+                    </h4>
                     <span>{{ $t('message.getStartedsHomeDownloads') }}</span>
                 </div>
                 <div class="box-1 box-2">
-                    <h4 class="title"><coun-down-com v-if="showCounters" class="title"  :endVal="865"/><span v-else class="title">0</span>{{ $t('message.getStartedsHomeDownloadsUnit') }}</h4>
+                    <h4 class="title"><coun-down-com v-if="showCounters" class="title"  :endVal="865"/>
+                        <span v-else class="title">0</span>
+                        {{ $t('message.getStartedsHomeDownloadsUnit') }}
+                    </h4>
                     <span>{{ $t('message.getStartedsHomeDownloads') }}</span>
                 </div>
             </div>

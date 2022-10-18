@@ -8,35 +8,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="appie-how-it-work-content">
-                        <h2 class="title">{{ $t('message.workHomeTitle') }}</h2>
+                    <div class="row appie-section-title">
+                        <h3 class="appie-title mb-30">{{ $t('message.workHomeTitle') }}</h3>
                         <p>{{ $t('message.workHomeText') }}</p>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="how-it-work-box">
-                                    <span>1</span>
-                                    <h5 class="title w70">{{ $t('message.workHomeItemTitle') }}</h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="how-it-work-box">
-                                    <span>2</span>
-                                    <h5 class="title w70">{{ $t('message.workHomeItemTitle2') }}</h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="how-it-work-box">
-                                    <span>3</span>
-                                    <h5 class="title w70">{{ $t('message.workHomeItemTitle3') }}</h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="how-it-work-box">
-                                    <span>4</span>
-                                    <h5 class="title w70">{{ $t('message.workHomeItemTitle4') }}</h5>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -51,7 +25,5 @@ export default {
 </script>
 
 <style>
-    .w70 {
-        width: 80%;
-    }
+
 </style>
